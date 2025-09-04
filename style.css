@@ -133,3 +133,37 @@ header {
   font-size: 20px;
   padding: 0 20px;
 }
+
+.cars-interior {
+  width: 90%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.car-interior-discrip {
+  font-family: "Roboto Mono", monospace;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+.car-interior-discrip h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.car-interior-discrip p {
+  font-size: 20px;
+}
+
+.car-interior-imag img {
+  height: 70vh;
+  width: 90vh;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.car-interior-imag img:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 25px rgba(255, 97, 97, 0.9); /* white glowing shadow */
+}
