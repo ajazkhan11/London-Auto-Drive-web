@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #111;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.navbar h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.links-buttons-wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-buttons {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.auth-buttons button {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.links-buttons-wrapper .nav-links a:hover {
+  color: #e74c3c; /* Sporty red hover */
+  border-radius: 15px;
+  font-size: 21px;
+   text-shadow: 0 0 10px #e74c3c; 
+}
+
+.links-buttons-wrapper .auth-buttons button:hover {
+    color: #e74c3c;
+  background-color: rgb(67, 65, 65);
+  font-size: 21px;
+   text-shadow: 0 0 10px #e74c3c; 
+}
+
+
