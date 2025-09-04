@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica;
   text-decoration: none;
   list-style: none;
   color: white;
@@ -12,10 +12,11 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: black;
 }
 
 header {
-  background-color: #111;
+  height: 15%;
 }
 
 .navbar {
@@ -23,18 +24,18 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 20px 40px;
 }
 .navbar h1 {
   font-size: 50px;
   text-transform: uppercase;
   text-shadow: 0 0 10px #e74c3c;
 }
-.logo{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .logo img {
   border-radius: 50%;
@@ -50,7 +51,7 @@ header {
 }
 
 .nav-links {
-  width: 50%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,7 +62,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 20px;
 }
 
 .auth-buttons button {
@@ -86,4 +87,49 @@ header {
   background-color: rgb(67, 65, 65);
   font-size: 21px;
   text-shadow: 0 0 10px #e74c3c;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  margin: 90px 30px;
+}
+
+.cars-card {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 50px;
+  border-bottom: 2px solid black;
+}
+.cars-card .car-imag {
+  margin-top: 30px;
+}
+.cars-card .car-imag img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+.cars-card .car-imag img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(160, 149, 149, 0.9); /* white glowing shadow */
+}
+.car-discrip {
+  height: 30%;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 100px;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.cars-card h3 {
+  font-size: 30px;
+  padding: 8px;
+}
+
+.cars-card p {
+  font-size: 20px;
+  padding: 0 20px;
 }
