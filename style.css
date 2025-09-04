@@ -30,11 +30,16 @@ header {
   text-transform: uppercase;
   text-shadow: 0 0 10px #e74c3c;
 }
-
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .logo img {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
 }
 .links-buttons-wrapper {
   width: 50%;
