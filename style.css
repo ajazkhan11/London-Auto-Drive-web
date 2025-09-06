@@ -156,6 +156,15 @@ header {
   font-size: 20px;
 }
 
+.car-interior-discrip:hover {
+  color: #e74c3c; /* Sporty red hover */
+  border-radius: 15px;
+  box-shadow: 0 0 10px #e74c3c;
+  border: 1px solid white;
+  padding: 8px 20px;
+
+}
+
 .car-interior-imag img {
   height: 70vh;
   width: 90vh;
